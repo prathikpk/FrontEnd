@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color:aquamarine ;
+}
+
+.head h1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: cadetblue;
+    color:black;
+}
+
+input{
+    margin: 30px;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background-color:aliceblue;
+}

@@ -1,0 +1,48 @@
+body{
+    background-color: lavender;
+}
+h1{
+    text-align: center;
+    background-color: powderblue;
+    text-decoration-line: underline;
+}
+input{
+    width: 50%;
+    margin: 10px;
+    height: 30px;
+    border-radius: 1rem;
+}
+
+.container{
+    margin: auto;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    
+}
+thead{
+    background-color:aquamarine;
+}
+td{
+    border: 1px solid black;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+
+label{
+    margin-left: 10px;
+    
+}
+
+button{
+    background-color: greenyellow;
+    border-radius: 1rem;
+    border-width: 0.7rem;
+    border-color: yellowgreen;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style:oblique;
+    margin-left: 12.6rem;
+}

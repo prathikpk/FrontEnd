@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Style.css">
+    <title>Registration Form</title>
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a href="file:///C:/Users/prathik.poojary/Desktop/Registration%20form/form.html">Home</a></li>
+          <li><a href="https://indianexpress.com/section/sports/">Sports</a></li>
+          <li><a href="file:///C:/Users/prathik.poojary/Desktop/table.html">Table</a></li>
+          <li><a href="https://news.google.com/topstories?hl=en-IN&gl=IN&ceid=IN:en">News</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="file:///C:/Users/prathik.poojary/Desktop/Registration%20form/form.html"><span class="glyphicon glyphicon-user">Sign up</a></li>
+          <li><a href="file:///C:/Users/prathik.poojary/Desktop/Login%20Form/index.html"><span class="glyphicon glyphicon-user">Sign in</a></li>
+        </ul>
+      </div>
+    <div class="home">
+      
+      <h2>Registration Form</h2>
+    <div class="form-home" >
+      
+      <form action="#" onsubmit="return validation()" class="bg-light">
+        <div class="Input-name">
+          <i class="fa fa-user user"></i>
+          <input type="text" placeholder="First Name" class="name" id="user" autocomplete="off">
+          <span id="user" class="text-danger font-weight-bold"></span>
+        </div>
+        <div class="Input-name">
+            <i class="fa fa-user user"></i>
+          <input type="text" placeholder="Last Name" class="name" id="user" autocomplete="off">
+          <span id="user" class="text-danger font-weight-bold"></span>
+        </div>
+
+        <div class="Input-name">
+          <i class="fa fa-envelope email"></i>
+          <input type="email" placeholder="Enter Email Id" class="text-name" id="emails" autocomplete="off">
+          <span id="email1" class="text-danger font-weight-bold"></span>
+        </div>
+
+        <div class="Input-name">
+          <i class="fa fa-unlock-alt user"></i>
+          <input type="password" placeholder="Enter Password" class="pass1" id="pass" autocomplete="off">
+          <span id="passwords" class="text-danger font-weight-bold"></span>
+        </div>
+
+        <div class="Input-name">
+          <i class="fa fa-unlock-alt user"></i>
+          <input type="password" placeholder="Confirm Password" class="pass2" id="conpass" autocomplete="off">
+          <span id="conpassword" class="text-danger font-weight-bold"></span>
+        </div>
+
+        <div class="Input-name">
+          <input type="radio" class="radio" name="gender" >
+          <label style="margin-right:40px">Male</label>
+
+          <input type="radio" class="radio" name="gender" >
+          <label>Female</label>
+          
+        </div>
+
+        <div class="Input-name">
+          <select class="course">
+            <option>Select a course</option>
+            <option>MTECH</option>
+            <option>BE</option>
+            <option>BTech</option>
+          </select>
+        </div>
+
+        <div class="Input-name">
+          <input type="checkbox" class="check">
+          <label>I have read and agree to terms and conditions.</label>
+        </div>
+
+        <div class="Input-name">
+          <button type="submit" class="btn btn-success btn-block">Register</button>
+        </div>
+      </form> 
+    </div>
+
+    <script type="text/javascript">
+      
+      function validation(){
+        var user=document.getElementById('user').value;
+        var emails=document.getElementById('emails').value;
+        var pass=document.getElementById('pass').value;
+        var confirmpass=document.getElementById('conpass').value;
+        
+        if(user==""){
+          document.getElementById('username').innerHTML="Please enter the field";
+          return false;
+        }
+
+        if(pass==""){
+          document.getElementById('passwords').innerHTML="Please enter the field";
+          return false;
+        }
+        if(pass.length<8){
+          document.getElementById('passwords').innerHTML="characters must be greater than 8";
+          return false;
+        }
+
+        if(confirmpass==""){
+          document.getElementById('conpassword').innerHTML="please enter the field";
+          return false;
+        }
+        if(pass!=confirmpass){
+          document.getElementById('conpassword').innerHTML="Enter password should be same as above";
+          return false;
+
+        }
+
+        if(emails==""){
+          document.getElementById('email1').innerHTML="Please enter the field";
+          return false;
+        }
+      }
+
+    </script>
+  </body>
+</html>

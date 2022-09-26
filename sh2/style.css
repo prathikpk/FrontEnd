@@ -1,0 +1,67 @@
+.container{
+    background-color: bisque;
+    padding-left: 1rem;
+    border: 2px solid black;
+    padding-bottom: 1rem;
+    width: 100%;
+    
+ }
+
+select{
+    font-size: 1rem;
+}
+label{
+    display:flex;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+select,input{
+ border: 1px solid ;
+ height: 40px;
+ width: 400px;
+}
+button{
+    padding-right: 2rem;
+    height: 40px;
+    width: 20rem;
+    font-size: 1.3rem;
+    background : aqua;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+hr{
+    margin-top: 2rem;
+}
+h1,h2{
+    padding-left: 9rem;
+    color:blue;
+}
+h2{
+    padding-left: 26rem;
+    font-size: 2.4rem;
+}
+h3{
+    padding-left: 7rem;
+    font-size: 21px;
+}
+th{
+    padding-left: 7rem;
+    font-size: 21px; 
+    background-color: #3a6070;
+    color: white;
+    border: 1px solid black;
+}
+table td{
+    padding-left: 7rem;
+    font-size: 21px; 
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    border: 2rem;
+}
+.delete{
+    cursor: pointer;
+}

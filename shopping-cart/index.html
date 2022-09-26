@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>shopping cart</title>
+</head>
+<body>
+    <div class="container">
+        
+    <h1>SHOPPING CART</h1>
+    <div>
+        <label>Select product</label><br>
+        <select id="ddselect" onchange="ddlselect()">
+            <option value="">Choose Product</option>
+            <option value="Parle">Parle G</option>
+            <option value="Goodday">Good day biscuit</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label>Unit Price</label>
+        <input type="text" id="txtvalue"></select>
+    </div>
+
+    <br>
+    <div class="quan">
+        <label for="input">Select Quantity</label><br>
+        <select id="input" >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+    </div>
+    <br>
+    <button>Add to Cart</button>
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div><br><br>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">0</span>
+        </div>
+    </section>
+
+    
+</body>
+<script src="script.js"></script>
+</html>

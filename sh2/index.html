@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c102305e9c.js" crossorigin="anonymous"></script>
+    <title>shopping cart</title>
+</head>
+<body>
+ <div class="container">
+
+    <h1>SHOPPING CART</h1>
+    
+        <label>Select product</label><br>
+        <select name="product" id="product"> </select>
+    
+    <br>
+    
+        <label>Unit Price</label>
+        <input type="text" id="price" placeholder="30"></select>
+    
+
+    <br>
+        <label for="" >Select Quantity</label><br>
+        <select id="qty" >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+    
+    <br><br>
+    <button type="button" id="add">Add to Cart</button>
+ 
+    <table class="table">
+        <h2>Cart</h2>
+        <tr>
+          <th>Product Name</th>
+          <th>Quantity</th>
+          <th>Unit Price</th>
+          <th>Sub Total</th>
+          <th>Remove</th>
+        </tr>
+    </table>
+      <label for="" >Total : </label>
+      <label for="" id="total">0</label>
+    
+ </div>
+</body>
+<script src="script.js"></script>
+</html>

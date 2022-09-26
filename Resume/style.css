@@ -1,0 +1,82 @@
+body{
+	margin:0px;
+	padding:0px;
+    box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+    background: rgb(173, 238, 160);
+}
+
+
+.resume-box{
+	width: 800px;
+	height: 1100px;
+	margin: 0 auto;
+	background-color: white;
+    box-shadow: 5px 5px 5px 5px #00000024;
+}
+.box-outer{
+	padding:30px;
+}
+.left-side{
+	background-color: #1a0647;
+	width: 36%;
+    float: right;
+	height: 1100px;
+}
+
+.right-side{
+	width: 54%;
+    padding: 0px;
+    padding-left: 60px;
+    padding-right: 20px;
+    position: relative;
+}
+.profile{
+	width: 100%;
+}
+.content{
+	padding: 20px;
+}
+h1,h2{
+	color: rgb(56, 24, 238);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h2{
+    text-decoration-line: underline;
+}
+.star-color1{
+    width: 40%;
+    float: left;
+}
+p{
+	color: #e08a28;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+p1{
+    text-decoration-line: underline;
+    line-height: 35px;
+}
+p1,p3,p6{
+    color: black;
+    font-size: medium;
+}
+p2{
+    text-decoration-line: underline;
+    line-height: 35px;
+}
+p2,p4{
+    color: black;
+    font-size: 15px;
+}
+p6{
+    padding: 13px;
+    line-height: 15px;
+}
+.star-color2 i1{
+    color: orange;
+}
